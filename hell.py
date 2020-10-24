@@ -78,3 +78,12 @@ print(course[1:5])  # We can slice a string using a similar notation:
 name = 'Jai'
 message = f'Hi, my name is {name}'
 print(message)
+
+# Arithmetic Operations
+''' 
++, -, *
+/ # returns a float
+// # returns an int
+% # returns the remainder of division
+** # exponentiation - x ** y = x to the power of y
+'''
