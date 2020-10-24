@@ -87,3 +87,12 @@ print(message)
 % # returns the remainder of division
 ** # exponentiation - x ** y = x to the power of y
 '''
+
+# Comparison operators
+'''
+a > b
+a >= b (greater than or equal to)
+a < b
+a <= b
+a == b (equals)
+a != b (not equals)'''
