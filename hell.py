@@ -52,4 +52,11 @@ print()
 birth_year = input("What is you birth year: ")
 age = 2020 - int(birth_year)
 print(age)
-'''int() float() bool()'''
+print()
+'''int() float() bool() str()'''
+first = input("first num: ")
+second = input("second num: ")
+add = float(first) + float(second)
+print("add: " + str(add))
+
+
