@@ -96,3 +96,22 @@ a < b
 a <= b
 a == b (equals)
 a != b (not equals)'''
+
+# If statements, for loop, while loop
+print()
+temperature = 25
+# In Python we don't have {}, so we use indentation for block
+if temperature > 30:
+    print('hot day')
+elif temperature < 20:
+    print('cold day')
+else:
+    print('beautiful day')
+
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+
+for i in range(1, 5):
+    print(i)
