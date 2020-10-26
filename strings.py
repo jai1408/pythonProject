@@ -75,5 +75,3 @@ print(f"My 10 character, four decimal number is:{num:10.4f}")
 My 10 character, four decimal number is:   23.4500
 My 10 character, four decimal number is:   23.4500
 '''
-
-
