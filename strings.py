@@ -45,9 +45,8 @@ There are three ways to perform string formatting.
 Since you will likely encounter all three versions in someone else's code, we describe each of them here.
 '''
 
-
 # float follows "{value:width.precision f}"
-result = 100/7
+result = 100 / 7
 print(result)
 print("the result is: {r:1.3f}".format(r=result))
 print(f"the result is: {result:{1}.{5}}")
@@ -75,3 +74,8 @@ print(f"My 10 character, four decimal number is:{num:10.4f}")
 My 10 character, four decimal number is:   23.4500
 My 10 character, four decimal number is:   23.4500
 '''
+
+# indexing and slicing in strings
+string = 'abcdefghi'
+print(string[::2]) # steps of 2
+print(string[2:6])
